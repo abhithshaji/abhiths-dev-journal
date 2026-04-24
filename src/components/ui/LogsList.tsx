@@ -1,11 +1,9 @@
-import { getTodaysDate } from "@/lib/helpers";
 import { IEntry } from "@/types/global.types"
 
-const JournalEntry = (entry: IEntry) => {
-    let todaysDate = getTodaysDate();
+const LogsList = (entry: IEntry) => {
 
     return (
-        <div className="">
+        <div className="mb-8">
             <span className="font-semibold italic ">{entry.date}</span>
             <ul className="list-disc ml-8">
                 {
@@ -19,4 +17,4 @@ const JournalEntry = (entry: IEntry) => {
     )
 }
 
-export default JournalEntry
+export default LogsList
