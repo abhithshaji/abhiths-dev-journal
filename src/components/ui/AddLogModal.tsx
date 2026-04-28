@@ -22,8 +22,11 @@ const AddLogModal = () => {
 
     let {date,logs}= formValues;
     
-    ///figure out a way to separate the logs
-  
+    let seperatedLogs = logs.toString().split(/\r?\n|\r|\n/g);
+
+    console.log(seperatedLogs);
+    
+    // update the displayed journal logs with new entry
    
   }
 
