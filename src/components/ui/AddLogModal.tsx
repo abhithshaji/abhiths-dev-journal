@@ -26,7 +26,7 @@ const AddLogModal = () => {
 
     console.log(seperatedLogs);
     
-    // update the displayed journal logs with new entry
+    // Setup the postgrsql DB
    
   }
 

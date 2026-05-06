@@ -10,14 +10,16 @@ export default function Home() {
       <h1 className="text-4xl text-center my-8">Abhith's Dev Journal</h1>
 
       <section className="flex flex-col items-center">
+        <div>
         {
-          journalEntries.reverse().map((entry, index) => {
+          journalEntries.map((entry, index) => {
             return <LogsList {...entry} key={index} />
           })
         }
+        </div>
       </section>
 
-        <AddLogModal/>
+      {/* <AddLogModal/> */}
       
 
     </main>
