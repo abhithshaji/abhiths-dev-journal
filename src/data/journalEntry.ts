@@ -59,8 +59,8 @@ export const journalEntries = [
           ],
           redo: [],
         },
-        reading: {},
-        mockInterview: {},
+        reading: [],
+        mockInterview: [],
       },
     ],
     reminders: [
@@ -117,8 +117,8 @@ export const journalEntries = [
           ],
           redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
         },
-        reading: {},
-        mockInterview: {},
+        reading: [],
+        mockInterview: [],
       },
     ],
     reminders: [
@@ -142,30 +142,153 @@ export const journalEntries = [
               problemName: "Container With Most Water",
               series: DSASeries.LC75,
             },
-          ],
-          redo: [{ problemNo: 1431, series: DSASeries.LC75 }],
-        },
-        GFE: {
-          new: [
             {
-              problemID: "",
-              problemName: "",
-              series: GFESeries.GFE75,
+              problemNo: 2723,
+              problemName: "Add Two Promises",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2621,
+              problemName: "Sleep",
+              series: DSASeries.JS30,
             },
           ],
-          redo: [{ problemID: "", series: GFESeries.GFE75 }],
+          redo: [
+            { problemNo: 1431, series: DSASeries.LC75 },
+            { problemNo: 2665, series: DSASeries.JS30 },
+          ],
         },
-        reading: {},
-        mockInterview: {},
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: [],
       },
     ],
     reminders: [
       {
         DSA: {
-          redo: [{ problemNo: 1431, series: DSASeries.LC75 }],
+          redo: [
+            { problemNo: 1431, series: DSASeries.LC75 },
+            { problemNo: 2723, series: DSASeries.JS30 },
+            { problemNo: 2621, series: DSASeries.JS30 },
+          ],
         },
         GFE: {
-          redo: [{ problemID: "", series: GFESeries.GFE75 }],
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "14 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1679,
+              problemName: "Max Number of K-Sum Pairs",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2725,
+              problemName: "Interval Cancellation",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2715,
+              problemName: "Timeout Cancellation",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 605, series: DSASeries.LC75 },
+            { problemNo: 2635, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 5,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2715, series: DSASeries.JS30 },
+            { problemNo: 2715, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "15 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 643,
+              problemName: "Maximum Average Subarray",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2622,
+              problemName: "Cache With Time Limit",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2637,
+              problemName: "Promise Time Limit",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 345, series: DSASeries.LC75 },
+            { problemNo: 2634, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 5,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2622, series: DSASeries.JS30 },
+            { problemNo: 2637, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
         },
       },
     ],
