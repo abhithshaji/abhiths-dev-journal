@@ -294,4 +294,104 @@ export const journalEntries = [
     ],
     notes: [],
   },
+  {
+    date: "16 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1456,
+              problemName: "Maximum Number of Vowels in a Substring of Given Length",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2627,
+              problemName: "Debounce",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2721,
+              problemName: "Execute Asynchronous Functions in Parallel",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 151, series: DSASeries.LC75 },
+            { problemNo: 2626, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 4,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2721, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "17 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1004,
+              problemName: "Max Consecutive Ones III",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            { problemNo: 238, series: DSASeries.LC75 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 3,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 104, series: DSASeries.LC75 },
+            { problemNo: 238, series: DSASeries.LC75 },
+          ],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
