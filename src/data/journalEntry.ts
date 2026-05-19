@@ -394,4 +394,136 @@ export const journalEntries = [
     ],
     notes: [],
   },
+  {
+    date: "18 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1493,
+              problemName: "Longest Subarray of 1's After Deleting One Element",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2677,
+              problemName: "Chunk Array",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2727,
+              problemName: "Is Object Empty",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 334, series: DSASeries.LC75 },
+            { problemNo: 2626, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "job-board",
+              problemName: "Job Board",
+              series: GFESeries.GFE75,
+            }
+          ],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 2,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 1493, series: DSASeries.LC75 },
+            { problemNo: 2629, series: DSASeries.JS30 },
+            { problemNo: 2677, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [ {
+              problemID: "job-board",
+              series: GFESeries.GFE75,
+            }],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "19 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1732,
+              problemName: "Find the Highest Altitude",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2619,
+              problemName: "Array Prototype Last",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2631,
+              problemName: "Group By",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 443, series: DSASeries.LC75 },
+            { problemNo: 2703, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "accordion",
+              problemName: "Accordion",
+              series: GFESeries.GFE75,
+            }
+          ],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 1,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 443, series: DSASeries.LC75 },
+            { problemNo: 2629, series: DSASeries.JS30 },
+            { problemNo: 2631, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [ {
+              problemID: "accordion",
+              series: GFESeries.GFE75,
+            }],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
