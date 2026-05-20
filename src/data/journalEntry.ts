@@ -20,6 +20,7 @@ export const journalEntries = [
       "I will also be creating a Journal site for showing my entire journey from start until i get into IBM.",
     ],
   },
+
   {
     date: "11 May 2026",
     logs: [
@@ -302,7 +303,8 @@ export const journalEntries = [
           new: [
             {
               problemNo: 1456,
-              problemName: "Maximum Number of Vowels in a Substring of Given Length",
+              problemName:
+                "Maximum Number of Vowels in a Substring of Given Length",
               series: DSASeries.LC75,
             },
             {
@@ -338,9 +340,7 @@ export const journalEntries = [
     reminders: [
       {
         DSA: {
-          redo: [
-            { problemNo: 2721, series: DSASeries.JS30 },
-          ],
+          redo: [{ problemNo: 2721, series: DSASeries.JS30 }],
         },
         GFE: {
           redo: [],
@@ -361,9 +361,7 @@ export const journalEntries = [
               series: DSASeries.LC75,
             },
           ],
-          redo: [
-            { problemNo: 238, series: DSASeries.LC75 },
-          ],
+          redo: [{ problemNo: 238, series: DSASeries.LC75 }],
         },
         GFE: {
           new: [],
@@ -427,7 +425,7 @@ export const journalEntries = [
               problemID: "job-board",
               problemName: "Job Board",
               series: GFESeries.GFE75,
-            }
+            },
           ],
           redo: [],
         },
@@ -451,10 +449,12 @@ export const journalEntries = [
           ],
         },
         GFE: {
-          redo: [ {
+          redo: [
+            {
               problemID: "job-board",
               series: GFESeries.GFE75,
-            }],
+            },
+          ],
         },
       },
     ],
@@ -493,7 +493,7 @@ export const journalEntries = [
               problemID: "accordion",
               problemName: "Accordion",
               series: GFESeries.GFE75,
-            }
+            },
           ],
           redo: [],
         },
@@ -517,10 +517,75 @@ export const journalEntries = [
           ],
         },
         GFE: {
-          redo: [ {
+          redo: [
+            {
               problemID: "accordion",
               series: GFESeries.GFE75,
-            }],
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "19 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 724,
+              problemName: "Find Pivot Index",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2724,
+              problemName: "Sort By",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2722,
+              problemName: "Join Two Arrays by ID",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 283, series: DSASeries.LC75 },
+            { problemNo: 2666, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "type-utilities-ii",
+              problemName: "Type Utilities II",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [],
+        },
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 3,
+          },
+        ],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 283, series: DSASeries.LC75 },
+            { problemNo: 2724, series: DSASeries.JS30 },
+            { problemNo: 2722, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
         },
       },
     ],
