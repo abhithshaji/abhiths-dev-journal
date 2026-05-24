@@ -591,4 +591,222 @@ export const journalEntries = [
     ],
     notes: [],
   },
+  {
+    date: "21 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 2215,
+              problemName: "Find the Difference of Two Arrays",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2705,
+              problemName: "Find the Difference of Two Arrays",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2625,
+              problemName: "Flatten Deeply Nested Array",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 392, series: DSASeries.LC75 },
+            { problemNo: 2623, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2215, series: DSASeries.LC75 },
+            { problemNo: 2705, series: DSASeries.JS30 },
+            { problemNo: 2625, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "22 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1207,
+              problemName: "Unique Number of Occurrences",
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2726,
+              problemName: "Calculator with Method Chaining",
+              series: DSASeries.JS30,
+            },
+            {
+              problemNo: 2695,
+              problemName: "Array Wrapper",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 11, series: DSASeries.LC75 },
+            { problemNo: 2723, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 1207, series: DSASeries.LC75 },
+            { problemNo: 2726, series: DSASeries.JS30 },
+            { problemNo: 2695, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
+
+  {
+    date: "23 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 1657,
+              problemName: "Determine if Two Strings Are Close",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            { problemNo: 1679, series: DSASeries.LC75 },
+            { problemNo: 2621, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "promise-all",
+              problemName: "Promise.all",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "debounce",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [{ problemNo: 1657, series: DSASeries.LC75 }],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "promise-all",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+
+  {
+    date: "24 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 2352,
+              problemName: "Equal Row and Column Pairs",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            { problemNo: 643, series: DSASeries.LC75 },
+            { problemNo: 2715, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "data-merging",
+              problemName: "Data Merging",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "array-reduce",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2352, series: DSASeries.LC75 },
+            { problemNo: 2715, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "data-merging",
+              problemName: "Data Merging",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "array-reduce",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
