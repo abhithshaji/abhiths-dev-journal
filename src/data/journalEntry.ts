@@ -21,854 +21,854 @@ export const journalEntries = [
     ],
   },
 
-  {
-    date: "11 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 2703,
-              problemName: "Return Length of Arguements Passed",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2629,
-              problemName: "Function Composition",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 283,
-              problemName: "Move Zeros",
-              series: DSASeries.LC75,
-            },
-          ],
-          redo: [{ problemNo: 2620, series: DSASeries.JS30 }],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "todo-list",
-              problemName: "Todo List",
-              series: GFESeries.GFE75,
-            },
-            {
-              problemID: "contact-form",
-              problemName: "Contact Form",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [{ problemNo: 283, series: DSASeries.LC75 }],
-        },
-        GFE: {
-          redo: [{ problemID: "contact-form", series: GFESeries.GFE75 }],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "12 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 392,
-              problemName: "Is Subsequence",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2623,
-              problemName: "Memoize",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2666,
-              problemName: "Allow One Function Call",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 2704, series: DSASeries.JS30 },
-            { problemNo: 1768, series: DSASeries.LC75 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "tabs",
-              problemName: "Tabs",
-              series: GFESeries.GFE75,
-            },
-            {
-              problemID: "holy-grail",
-              problemName: "Holy Grail",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {},
-        GFE: {
-          redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "13 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 11,
-              problemName: "Container With Most Water",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2723,
-              problemName: "Add Two Promises",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2621,
-              problemName: "Sleep",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 1431, series: DSASeries.LC75 },
-            { problemNo: 2665, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 1431, series: DSASeries.LC75 },
-            { problemNo: 2723, series: DSASeries.JS30 },
-            { problemNo: 2621, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "14 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1679,
-              problemName: "Max Number of K-Sum Pairs",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2725,
-              problemName: "Interval Cancellation",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2715,
-              problemName: "Timeout Cancellation",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 605, series: DSASeries.LC75 },
-            { problemNo: 2635, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 5,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 2715, series: DSASeries.JS30 },
-            { problemNo: 2715, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "15 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 643,
-              problemName: "Maximum Average Subarray",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2622,
-              problemName: "Cache With Time Limit",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2637,
-              problemName: "Promise Time Limit",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 345, series: DSASeries.LC75 },
-            { problemNo: 2634, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 5,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 2622, series: DSASeries.JS30 },
-            { problemNo: 2637, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "16 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1456,
-              problemName:
-                "Maximum Number of Vowels in a Substring of Given Length",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2627,
-              problemName: "Debounce",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2721,
-              problemName: "Execute Asynchronous Functions in Parallel",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 151, series: DSASeries.LC75 },
-            { problemNo: 2626, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 4,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [{ problemNo: 2721, series: DSASeries.JS30 }],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "17 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1004,
-              problemName: "Max Consecutive Ones III",
-              series: DSASeries.LC75,
-            },
-          ],
-          redo: [{ problemNo: 238, series: DSASeries.LC75 }],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 3,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 104, series: DSASeries.LC75 },
-            { problemNo: 238, series: DSASeries.LC75 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "18 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1493,
-              problemName: "Longest Subarray of 1's After Deleting One Element",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2677,
-              problemName: "Chunk Array",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2727,
-              problemName: "Is Object Empty",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 334, series: DSASeries.LC75 },
-            { problemNo: 2626, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "job-board",
-              problemName: "Job Board",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 2,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 1493, series: DSASeries.LC75 },
-            { problemNo: 2629, series: DSASeries.JS30 },
-            { problemNo: 2677, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [
-            {
-              problemID: "job-board",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "19 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1732,
-              problemName: "Find the Highest Altitude",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2619,
-              problemName: "Array Prototype Last",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2631,
-              problemName: "Group By",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 443, series: DSASeries.LC75 },
-            { problemNo: 2703, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "accordion",
-              problemName: "Accordion",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 1,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 443, series: DSASeries.LC75 },
-            { problemNo: 2629, series: DSASeries.JS30 },
-            { problemNo: 2631, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [
-            {
-              problemID: "accordion",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "19 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 724,
-              problemName: "Find Pivot Index",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2724,
-              problemName: "Sort By",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2722,
-              problemName: "Join Two Arrays by ID",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 283, series: DSASeries.LC75 },
-            { problemNo: 2666, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "type-utilities-ii",
-              problemName: "Type Utilities II",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [],
-        },
-        reading: [
-          {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 3,
-          },
-        ],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 283, series: DSASeries.LC75 },
-            { problemNo: 2724, series: DSASeries.JS30 },
-            { problemNo: 2722, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "21 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 2215,
-              problemName: "Find the Difference of Two Arrays",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2705,
-              problemName: "Find the Difference of Two Arrays",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2625,
-              problemName: "Flatten Deeply Nested Array",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 392, series: DSASeries.LC75 },
-            { problemNo: 2623, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 2215, series: DSASeries.LC75 },
-            { problemNo: 2705, series: DSASeries.JS30 },
-            { problemNo: 2625, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "22 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1207,
-              problemName: "Unique Number of Occurrences",
-              series: DSASeries.LC75,
-            },
-            {
-              problemNo: 2726,
-              problemName: "Calculator with Method Chaining",
-              series: DSASeries.JS30,
-            },
-            {
-              problemNo: 2695,
-              problemName: "Array Wrapper",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 11, series: DSASeries.LC75 },
-            { problemNo: 2723, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [],
-          redo: [],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 1207, series: DSASeries.LC75 },
-            { problemNo: 2726, series: DSASeries.JS30 },
-            { problemNo: 2695, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [],
-        },
-      },
-    ],
-    notes: [],
-  },
+  // {
+  //   date: "11 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 2703,
+  //             problemName: "Return Length of Arguements Passed",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2629,
+  //             problemName: "Function Composition",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 283,
+  //             problemName: "Move Zeros",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [{ problemNo: 2620, series: DSASeries.JS30 }],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "todo-list",
+  //             problemName: "Todo List",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "contact-form",
+  //             problemName: "Contact Form",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [{ problemNo: 283, series: DSASeries.LC75 }],
+  //       },
+  //       GFE: {
+  //         redo: [{ problemID: "contact-form", series: GFESeries.GFE75 }],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "12 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 392,
+  //             problemName: "Is Subsequence",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2623,
+  //             problemName: "Memoize",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2666,
+  //             problemName: "Allow One Function Call",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 2704, series: DSASeries.JS30 },
+  //           { problemNo: 1768, series: DSASeries.LC75 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "tabs",
+  //             problemName: "Tabs",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "holy-grail",
+  //             problemName: "Holy Grail",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {},
+  //       GFE: {
+  //         redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "13 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 11,
+  //             problemName: "Container With Most Water",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2723,
+  //             problemName: "Add Two Promises",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2621,
+  //             problemName: "Sleep",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 1431, series: DSASeries.LC75 },
+  //           { problemNo: 2665, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 1431, series: DSASeries.LC75 },
+  //           { problemNo: 2723, series: DSASeries.JS30 },
+  //           { problemNo: 2621, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "14 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1679,
+  //             problemName: "Max Number of K-Sum Pairs",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2725,
+  //             problemName: "Interval Cancellation",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2715,
+  //             problemName: "Timeout Cancellation",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 605, series: DSASeries.LC75 },
+  //           { problemNo: 2635, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 5,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 2715, series: DSASeries.JS30 },
+  //           { problemNo: 2715, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "15 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 643,
+  //             problemName: "Maximum Average Subarray",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2622,
+  //             problemName: "Cache With Time Limit",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2637,
+  //             problemName: "Promise Time Limit",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 345, series: DSASeries.LC75 },
+  //           { problemNo: 2634, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 5,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 2622, series: DSASeries.JS30 },
+  //           { problemNo: 2637, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "16 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1456,
+  //             problemName:
+  //               "Maximum Number of Vowels in a Substring of Given Length",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2627,
+  //             problemName: "Debounce",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2721,
+  //             problemName: "Execute Asynchronous Functions in Parallel",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 151, series: DSASeries.LC75 },
+  //           { problemNo: 2626, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 4,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [{ problemNo: 2721, series: DSASeries.JS30 }],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "17 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1004,
+  //             problemName: "Max Consecutive Ones III",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [{ problemNo: 238, series: DSASeries.LC75 }],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 3,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 104, series: DSASeries.LC75 },
+  //           { problemNo: 238, series: DSASeries.LC75 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "18 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1493,
+  //             problemName: "Longest Subarray of 1's After Deleting One Element",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2677,
+  //             problemName: "Chunk Array",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2727,
+  //             problemName: "Is Object Empty",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 334, series: DSASeries.LC75 },
+  //           { problemNo: 2626, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "job-board",
+  //             problemName: "Job Board",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 2,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 1493, series: DSASeries.LC75 },
+  //           { problemNo: 2629, series: DSASeries.JS30 },
+  //           { problemNo: 2677, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "job-board",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "19 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1732,
+  //             problemName: "Find the Highest Altitude",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2619,
+  //             problemName: "Array Prototype Last",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2631,
+  //             problemName: "Group By",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 443, series: DSASeries.LC75 },
+  //           { problemNo: 2703, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "accordion",
+  //             problemName: "Accordion",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 1,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 443, series: DSASeries.LC75 },
+  //           { problemNo: 2629, series: DSASeries.JS30 },
+  //           { problemNo: 2631, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "accordion",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "19 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 724,
+  //             problemName: "Find Pivot Index",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2724,
+  //             problemName: "Sort By",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2722,
+  //             problemName: "Join Two Arrays by ID",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 283, series: DSASeries.LC75 },
+  //           { problemNo: 2666, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "type-utilities-ii",
+  //             problemName: "Type Utilities II",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 3,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 283, series: DSASeries.LC75 },
+  //           { problemNo: 2724, series: DSASeries.JS30 },
+  //           { problemNo: 2722, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "21 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 2215,
+  //             problemName: "Find the Difference of Two Arrays",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2705,
+  //             problemName: "Find the Difference of Two Arrays",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2625,
+  //             problemName: "Flatten Deeply Nested Array",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 392, series: DSASeries.LC75 },
+  //           { problemNo: 2623, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 2215, series: DSASeries.LC75 },
+  //           { problemNo: 2705, series: DSASeries.JS30 },
+  //           { problemNo: 2625, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "22 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1207,
+  //             problemName: "Unique Number of Occurrences",
+  //             series: DSASeries.LC75,
+  //           },
+  //           {
+  //             problemNo: 2726,
+  //             problemName: "Calculator with Method Chaining",
+  //             series: DSASeries.JS30,
+  //           },
+  //           {
+  //             problemNo: 2695,
+  //             problemName: "Array Wrapper",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 11, series: DSASeries.LC75 },
+  //           { problemNo: 2723, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [],
+  //         redo: [],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 1207, series: DSASeries.LC75 },
+  //           { problemNo: 2726, series: DSASeries.JS30 },
+  //           { problemNo: 2695, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
 
-  {
-    date: "23 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 1657,
-              problemName: "Determine if Two Strings Are Close",
-              series: DSASeries.LC75,
-            },
-          ],
-          redo: [
-            { problemNo: 1679, series: DSASeries.LC75 },
-            { problemNo: 2621, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "promise-all",
-              problemName: "Promise.all",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [
-            {
-              problemID: "debounce",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [{ problemNo: 1657, series: DSASeries.LC75 }],
-        },
-        GFE: {
-          redo: [
-            {
-              problemID: "promise-all",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-      },
-    ],
-    notes: [],
-  },
+  // {
+  //   date: "23 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 1657,
+  //             problemName: "Determine if Two Strings Are Close",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 1679, series: DSASeries.LC75 },
+  //           { problemNo: 2621, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "promise-all",
+  //             problemName: "Promise.all",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "debounce",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [{ problemNo: 1657, series: DSASeries.LC75 }],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "promise-all",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
 
-  {
-    date: "24 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 2352,
-              problemName: "Equal Row and Column Pairs",
-              series: DSASeries.LC75,
-            },
-          ],
-          redo: [
-            { problemNo: 643, series: DSASeries.LC75 },
-            { problemNo: 2715, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "data-merging",
-              problemName: "Data Merging",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [
-            {
-              problemID: "array-reduce",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-        reading: [],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 2352, series: DSASeries.LC75 },
-            { problemNo: 2715, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [
-            {
-              problemID: "data-merging",
-              series: GFESeries.GFE75,
-            },
-            {
-              problemID: "array-reduce",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-      },
-    ],
-    notes: [],
-  },
-  {
-    date: "25 May 2026",
-    logs: [
-      {
-        DSA: {
-          new: [
-            {
-              problemNo: 2694,
-              problemName: "Event Emitter",
-              series: DSASeries.JS30,
-            },
-          ],
-          redo: [
-            { problemNo: 2725, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          new: [
-            {
-              problemID: "deep-clone",
-              problemName: "Deep Clone",
-              series: GFESeries.GFE75,
-            },
-            {
-              problemID: "event-emitter",
-              problemName: "Event Emitter",
-              series: GFESeries.GFE75,
-            },
-          ],
-          redo: [
-            {
-              problemID: "classnames",
-              series: GFESeries.GFE75,
-            },
-          ],
-        },
-        reading: [ {
-            series: ReadingSeries.GFEBeginner,
-            articleNo: 1,
-            noOfQuestions: 1,
-          },],
-        mockInterview: [],
-      },
-    ],
-    reminders: [
-      {
-        DSA: {
-          redo: [
-            { problemNo: 2694, series: DSASeries.JS30 },
-          ],
-        },
-        GFE: {
-          redo: [
-            {
-              problemID: "event-emitter",
-              series: GFESeries.GFE75,
-            }
-          ],
-        },
-      },
-    ],
-    notes: [],
-  },
+  // {
+  //   date: "24 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 2352,
+  //             problemName: "Equal Row and Column Pairs",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 643, series: DSASeries.LC75 },
+  //           { problemNo: 2715, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "data-merging",
+  //             problemName: "Data Merging",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "array-reduce",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 2352, series: DSASeries.LC75 },
+  //           { problemNo: 2715, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "data-merging",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "array-reduce",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+  // {
+  //   date: "25 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 2694,
+  //             problemName: "Event Emitter",
+  //             series: DSASeries.JS30,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 2725, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "deep-clone",
+  //             problemName: "Deep Clone",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "event-emitter",
+  //             problemName: "Event Emitter",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "classnames",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [ {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 1,
+  //         },],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 2694, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "event-emitter",
+  //             series: GFESeries.GFE75,
+  //           }
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
 ];
