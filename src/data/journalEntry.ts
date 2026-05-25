@@ -796,13 +796,75 @@ export const journalEntries = [
           redo: [
             {
               problemID: "data-merging",
-              problemName: "Data Merging",
               series: GFESeries.GFE75,
             },
             {
               problemID: "array-reduce",
               series: GFESeries.GFE75,
             },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "25 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 2694,
+              problemName: "Event Emitter",
+              series: DSASeries.JS30,
+            },
+          ],
+          redo: [
+            { problemNo: 2725, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "deep-clone",
+              problemName: "Deep Clone",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "event-emitter",
+              problemName: "Event Emitter",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "classnames",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [ {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 1,
+          },],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 2694, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "event-emitter",
+              series: GFESeries.GFE75,
+            }
           ],
         },
       },
