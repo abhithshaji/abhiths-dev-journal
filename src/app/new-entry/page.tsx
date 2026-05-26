@@ -1,10 +1,8 @@
 "use client"
 
-import Heading2 from '@/components/ui/heading/Heading2'
-import Heading3 from '@/components/ui/heading/Heading3'
-import InputBox from '@/components/ui/InputBox'
-import LogBox from '@/components/ui/LogBox'
-import PageWrapper from '@/components/ui/PageWrapper'
+import {Heading2,Heading3} from '@/components/heading'
+import Input from '@/components/ui/Input'
+import {PageWrapper,LogsEntry} from '@/components/layout'
 import { useState } from 'react'
 
 const page = () => {
@@ -20,9 +18,9 @@ const page = () => {
     <PageWrapper>
         <Heading2 title='Create New Entry'/>
         <Heading3 title='Date :' />
-        <InputBox type='date' name='date' id='date' value={date} onChange={handleDateChange}/>
+        <Input type='date' name='date' id='date' value={date} onChange={handleDateChange}/>
         <Heading3 title='Logs :' className='mt-4'/>
-        <LogBox/>
+        <LogsEntry/>
 
     </PageWrapper>
   )

@@ -1,11 +1,10 @@
 "use client";
 import { useState } from "react";
 import { ChevronDown, ChevronRight, ChevronUp } from "lucide-react";
-import { Heading4, Heading5 } from "@/components/ui/heading";
-import InputBox from "./InputBox";
-import Select from "./Select";
+import { Heading4, Heading5 } from "@/components/heading";
+import {Input,Select} from "@/components/ui";
 
-const LogBox = () => {
+const LogsEntry = () => {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleToggle = () => {
@@ -26,7 +25,7 @@ const LogBox = () => {
       <div className="flex ml-10">
         <div className="mr-4">
           <Heading5 title="Problem Name" />
-          <InputBox
+          <Input
             type="text"
             id="dsa-problem-name"
             name="dsa-problem-name"
@@ -42,4 +41,4 @@ const LogBox = () => {
   );
 };
 
-export default LogBox;
+export default LogsEntry;

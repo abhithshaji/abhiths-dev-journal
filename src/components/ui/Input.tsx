@@ -8,7 +8,7 @@ interface InputBoxProps {
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const InputBox = ({
+const Input = ({
   className = "",
   type,
   id,
@@ -32,4 +32,4 @@ const InputBox = ({
   );
 };
 
-export default InputBox;
+export default Input;
