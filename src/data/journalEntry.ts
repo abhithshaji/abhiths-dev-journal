@@ -871,4 +871,70 @@ export const journalEntries = [
   //   ],
   //   notes: [],
   // },
+
+  // {
+  //   date: "26 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 2390,
+  //             problemName: "Removing Stars From a String",
+  //             series: DSASeries.LC75,
+  //           },
+            
+  //         ],
+  //         redo: [
+  //           { problemNo: 1456, series: DSASeries.LC75 },
+  //           { problemNo: 2637, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "get-elements-by-style",
+  //             problemName: "getElementsByStyle",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "function-call",
+  //             problemName: "Function.prototype.call",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "flatten",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [ {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 1,
+  //         },],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {},
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "get-elements-by-style",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "function-call",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
 ];
