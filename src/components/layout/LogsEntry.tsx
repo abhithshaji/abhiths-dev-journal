@@ -4,6 +4,10 @@ import { ChevronDown, ChevronRight, ChevronUp } from "lucide-react";
 import { Heading4, Heading5 } from "@/components/heading";
 import {Input,Select} from "@/components/ui";
 
+
+const SERIES_OPTIONS = ["LC-75", "JS-30"];
+const STATUS_OPTIONS = ["New","Redo"];
+
 const LogsEntry = () => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -22,8 +26,17 @@ const LogsEntry = () => {
         <Heading4 title="DSA" />
       </div>
 
-      <div className="flex ml-10">
-        <div className="mr-4">
+      <div className="flex ml-10 items-center justify-between">
+        <div>
+          <Heading5 title="Problem ID" />
+          <Input
+            type="text"
+            id="dsa-problem-name"
+            name="dsa-problem-name"
+            onChange={function () {}}
+          />
+        </div>
+        <div>
           <Heading5 title="Problem Name" />
           <Input
             type="text"
@@ -34,7 +47,11 @@ const LogsEntry = () => {
         </div>
         <div>
           <Heading5 title="Series" />
-          <Select/>
+          <Select options={SERIES_OPTIONS}/>
+        </div>
+        <div>
+          <Heading5 title="Status" />
+          <Select options={STATUS_OPTIONS}/>
         </div>
       </div>
     </section>
