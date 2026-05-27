@@ -883,7 +883,7 @@ export const journalEntries = [
   //             problemName: "Removing Stars From a String",
   //             series: DSASeries.LC75,
   //           },
-            
+
   //         ],
   //         redo: [
   //           { problemNo: 1456, series: DSASeries.LC75 },
@@ -937,4 +937,70 @@ export const journalEntries = [
   //   ],
   //   notes: [],
   // },
+
+  // {
+  //   date: "27 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 735,
+  //             problemName: "Asteroid Collision",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 1004, series: DSASeries.LC75 },
+  //           { problemNo: 2622, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "list-format",
+  //             problemName: "List Format",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "throttle",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 1,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 735, series: DSASeries.LC75 },
+  //           { problemNo: 1004, series: DSASeries.LC75 },
+  //           { problemNo: 2622, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "list-format",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+
+
 ];
