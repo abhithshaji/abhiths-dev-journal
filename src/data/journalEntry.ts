@@ -1002,5 +1002,168 @@ export const journalEntries = [
   //   notes: [],
   // },
 
+  // {
+  //   date: "28 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 735,
+  //             problemName: "Decode String",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [{ problemNo: 2627, series: DSASeries.JS30 }],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "Deep Equal",
+  //             problemName: "deep-equal",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "Map Async Limit",
+  //             problemName: "map-async-limit",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [],
+  //       },
+  //       reading: [
+  //         {
+  //           series: ReadingSeries.GFEBeginner,
+  //           articleNo: 1,
+  //           noOfQuestions: 3,
+  //         },
+  //       ],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [
+  //           { problemNo: 1493, series: DSASeries.LC75 },
+  //           { problemNo: 735, series: DSASeries.LC75 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "deep-equal",
+  //             series: GFESeries.GFE75,
+  //           },
+  //           {
+  //             problemID: "map-async-limit",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+
+  // {
+  //   date: "29 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [],
+  //         redo: [{ problemNo: 2721, series: DSASeries.JS30 }],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "promise-any",
+  //             problemName: "Promise.any",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "todo-list",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [{ problemNo: 2721, series: DSASeries.JS30 }],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "promise-any",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+
+  // {
+  //   date: "30 May 2026",
+  //   logs: [
+  //     {
+  //       DSA: {
+  //         new: [
+  //           {
+  //             problemNo: 993,
+  //             problemName: "Number of Recent Calls",
+  //             series: DSASeries.LC75,
+  //           },
+  //         ],
+  //         redo: [
+  //           { problemNo: 1004, series: DSASeries.LC75 },
+  //           { problemNo: 2727, series: DSASeries.JS30 },
+  //         ],
+  //       },
+  //       GFE: {
+  //         new: [
+  //           {
+  //             problemID: "Deep Omit",
+  //             problemName: "deep-omit",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //         redo: [
+  //           {
+  //             problemID: "contact-form",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //       reading: [],
+  //       mockInterview: [],
+  //     },
+  //   ],
+  //   reminders: [
+  //     {
+  //       DSA: {
+  //         redo: [{ problemNo: 1004, series: DSASeries.LC75 }],
+  //       },
+  //       GFE: {
+  //         redo: [
+  //           {
+  //             problemID: "deep-omit",
+  //             series: GFESeries.GFE75,
+  //           },
+  //         ],
+  //       },
+  //     },
+  //   ],
+  //   notes: [],
+  // },
+
 
 ];

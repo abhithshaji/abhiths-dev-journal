@@ -34,7 +34,7 @@ export default function Select({options}:ISelectProps) {
           {options.map((option, index) => {
             return (
               <p
-                key={option + index}
+                key={`${option}-${index}`}
                 className="cursor-pointer hover:bg-foreground hover:text-background "
                 onClick={() => handleOptionSelection(option)}
               >
