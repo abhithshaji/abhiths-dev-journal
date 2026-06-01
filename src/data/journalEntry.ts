@@ -1019,8 +1019,8 @@ export const journalEntries = [
   //       GFE: {
   //         new: [
   //           {
-  //             problemID: "Deep Equal",
-  //             problemName: "deep-equal",
+  //             problemID: "deep-equal",
+  //             problemName: "Deep Equal",
   //             series: GFESeries.GFE75,
   //           },
   //           {
@@ -1131,8 +1131,8 @@ export const journalEntries = [
   //       GFE: {
   //         new: [
   //           {
-  //             problemID: "Deep Omit",
-  //             problemName: "deep-omit",
+  //             problemID: "deep-omit",
+  //             problemName: "Deep Omit",
   //             series: GFESeries.GFE75,
   //           },
   //         ],
@@ -1165,5 +1165,105 @@ export const journalEntries = [
   //   notes: [],
   // },
 
+  {
+    date: "31 May 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 649,
+              problemName: "Dota2 Senate",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            { problemNo: 1493, series: DSASeries.LC75 },
+            { problemNo: 2677, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "promisify",
+              problemName: "Promisify",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "memoize",
+              problemName: "Memoize",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            { problemNo: 649, series: DSASeries.LC75 },
+            { problemNo: 2677, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "memoize",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
 
+  {
+    date: "1 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [{ problemNo: 2619, series: DSASeries.JS30 }],
+        },
+        GFE: {
+          new: [
+            {
+              problemName: "Squash Objects",
+              problemID: "squash-objects",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "holy-grail",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "squash-objects",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
