@@ -1266,4 +1266,107 @@ export const journalEntries = [
     ],
     notes: [],
   },
+
+  {
+    date: "2 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 2095,
+              problemName: "Delete the Middle Node of a Linked List",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            {
+              problemNo: 1732,
+              series: DSASeries.LC75,
+            },
+            { problemNo: 2631, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemName: "getElementsByClassName",
+              problemID: "get-elements-by-class-name",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "tabs",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 2095,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "get-elements-by-class-name",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+
+  {
+    date: "3 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 328,
+              problemName: "Odd Even Linked List",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            {
+              problemNo: 724,
+              series: DSASeries.LC75,
+            },
+            { problemNo: 2724, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [],
+        },
+        GFE: {
+          redo: [],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
