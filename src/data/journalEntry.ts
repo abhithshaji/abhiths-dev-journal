@@ -1369,4 +1369,56 @@ export const journalEntries = [
     ],
     notes: [],
   },
+
+  {
+    date: "4 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 206,
+              problemName: "Reverse Linked List",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            {
+              problemNo: 2215,
+              series: DSASeries.LC75,
+            },
+            { problemNo: 2722, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "job-board",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [{ problemNo: 2722, series: DSASeries.JS30 }],
+        },
+        GFE: {
+          redo: [
+            {
+              series: ReadingSeries.GFEBeginner,
+              articleNo: 1,
+              noOfQuestions: 2,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
 ];
