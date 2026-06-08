@@ -1399,7 +1399,13 @@ export const journalEntries = [
             },
           ],
         },
-        reading: [],
+        reading: [
+          {
+            series: ReadingSeries.GFEBeginner,
+            articleNo: 1,
+            noOfQuestions: 2,
+          },
+        ],
         mockInterview: [],
       },
     ],
@@ -1411,12 +1417,85 @@ export const journalEntries = [
         GFE: {
           redo: [
             {
-              series: ReadingSeries.GFEBeginner,
-              articleNo: 1,
-              noOfQuestions: 2,
+              problemID: "job-board",
+              series: GFESeries.GFE75,
             },
           ],
         },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "5 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [{ problemNo: 2625, series: DSASeries.JS30 }],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "accordion",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {},
+        GFE: {},
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "8 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 2130,
+              problemName: "Maximum Twin Sum of a Linked List",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            { problemNo: 1207, series: DSASeries.LC75 },
+            { problemNo: 2705, series: DSASeries.JS30 },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "type-utilities-ii",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: [],
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 2130,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {},
       },
     ],
     notes: [],
