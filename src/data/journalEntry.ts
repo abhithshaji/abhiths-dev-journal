@@ -61,7 +61,7 @@ export const journalEntries = [
   //         redo: [],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -119,7 +119,7 @@ export const journalEntries = [
   //         redo: [{ problemID: "debounce", series: GFESeries.GFE75 }],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -164,7 +164,7 @@ export const journalEntries = [
   //         redo: [],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -221,7 +221,7 @@ export const journalEntries = [
   //           noOfQuestions: 5,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -277,7 +277,7 @@ export const journalEntries = [
   //           noOfQuestions: 5,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -334,7 +334,7 @@ export const journalEntries = [
   //           noOfQuestions: 4,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -374,7 +374,7 @@ export const journalEntries = [
   //           noOfQuestions: 3,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -436,7 +436,7 @@ export const journalEntries = [
   //           noOfQuestions: 2,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -504,7 +504,7 @@ export const journalEntries = [
   //           noOfQuestions: 1,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -572,7 +572,7 @@ export const journalEntries = [
   //           noOfQuestions: 3,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -623,7 +623,7 @@ export const journalEntries = [
   //         redo: [],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -674,7 +674,7 @@ export const journalEntries = [
   //         redo: [],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -727,7 +727,7 @@ export const journalEntries = [
   //         ],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -781,7 +781,7 @@ export const journalEntries = [
   //         ],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -849,7 +849,7 @@ export const journalEntries = [
   //           articleNo: 1,
   //           noOfQuestions: 1,
   //         },],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -915,7 +915,7 @@ export const journalEntries = [
   //           articleNo: 1,
   //           noOfQuestions: 1,
   //         },],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -977,7 +977,7 @@ export const journalEntries = [
   //           noOfQuestions: 1,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -1038,7 +1038,7 @@ export const journalEntries = [
   //           noOfQuestions: 3,
   //         },
   //       ],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -1090,7 +1090,7 @@ export const journalEntries = [
   //         ],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -1144,7 +1144,7 @@ export const journalEntries = [
   //         ],
   //       },
   //       reading: [],
-  //       mockInterview: [],
+  //       mockInterview: 0,
   //     },
   //   ],
   //   reminders: [
@@ -1198,7 +1198,7 @@ export const journalEntries = [
           redo: [],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1246,7 +1246,7 @@ export const journalEntries = [
           ],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1303,7 +1303,7 @@ export const journalEntries = [
           ],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1354,7 +1354,7 @@ export const journalEntries = [
           redo: [],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1406,7 +1406,7 @@ export const journalEntries = [
             noOfQuestions: 2,
           },
         ],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1444,7 +1444,7 @@ export const journalEntries = [
           ],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1482,7 +1482,7 @@ export const journalEntries = [
           ],
         },
         reading: [],
-        mockInterview: [],
+        mockInterview: 0,
       },
     ],
     reminders: [
@@ -1493,6 +1493,86 @@ export const journalEntries = [
               problemNo: 2130,
               series: DSASeries.LC75,
             },
+          ],
+        },
+        GFE: {},
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "9 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [{ problemNo: 1657, series: DSASeries.LC75 }],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "promise-all",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 2130,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {},
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "10 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 104,
+              problemName: "Maximum Depth of Binary Tree",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "data-merging",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 104,
+              series: DSASeries.LC75,
+            },
+            { problemNo: 2352, series: DSASeries.LC75 },
+            { problemNo: 2694, series: DSASeries.JS30 },
           ],
         },
         GFE: {},
