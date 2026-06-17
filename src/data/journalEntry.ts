@@ -1575,7 +1575,387 @@ export const journalEntries = [
             { problemNo: 2694, series: DSASeries.JS30 },
           ],
         },
+        GFE: {
+          redo: [
+            {
+              problemID: "data-merging",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "11 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 2352,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2694,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 2694,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
         GFE: {},
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "12 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 2390,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2695,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 2695,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {},
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "13 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 735,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2726,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [],
+          redo: [
+            {
+              problemID: "deep-clone",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 735,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "deep-clone",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "14 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 394,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2667,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "html-serializer",
+              problemName: "HTML Serializer",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "curry",
+              problemName: "Curry",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "event-emitter",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 394,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "html-serializer",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "curry",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "event-emitter",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "15 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 933,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2620,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "json-stringify",
+              problemName: "JSON.stringify",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "get-elements-by-style",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {},
+        GFE: {
+          redo: [
+            {
+              problemID: "json-stringify",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "16 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [],
+          redo: [
+            {
+              problemNo: 649,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2704,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "star-rating",
+              problemName: "Star Rating",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "image-carousel",
+              problemName: "Image Carousel",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [
+            {
+              problemID: "function-call",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {
+          redo: [
+            {
+              problemNo: 649,
+              series: DSASeries.LC75,
+            },
+          ],
+        },
+        GFE: {
+          redo: [
+            {
+              problemID: "star-rating",
+              series: GFESeries.GFE75,
+            },
+            {
+              problemID: "image-carousel",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
+      },
+    ],
+    notes: [],
+  },
+  {
+    date: "17 June 2026",
+    logs: [
+      {
+        DSA: {
+          new: [
+            {
+              problemNo: 872,
+              problemName: "Leaf-Similar Trees",
+              series: DSASeries.LC75,
+            },
+          ],
+          redo: [
+            {
+              problemNo: 104,
+              series: DSASeries.LC75,
+            },
+            {
+              problemNo: 2665,
+              series: DSASeries.JS30,
+            },
+          ],
+        },
+        GFE: {
+          new: [
+            {
+              problemID: "progress-bar",
+              problemName: "Progress Bar",
+              series: GFESeries.GFE75,
+            },
+          ],
+          redo: [],
+        },
+        reading: [],
+        mockInterview: 0,
+      },
+    ],
+    reminders: [
+      {
+        DSA: {},
+        GFE: {
+          redo: [
+            {
+              problemID: "progress-bar",
+              series: GFESeries.GFE75,
+            },
+          ],
+        },
       },
     ],
     notes: [],
