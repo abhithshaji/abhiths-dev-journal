@@ -1369,7 +1369,6 @@ export const journalEntries = [
     ],
     notes: [],
   },
-
   {
     date: "4 June 2026",
     logs: [
